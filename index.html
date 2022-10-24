@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierwsza strona</title>
+</head>
+
+<body class="article">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <header>
+        <h1 class="header__title">Maja Gawlikowska</h1>
+    </header>
+    <nav>
+        <p>Przejdź do:</p>
+        <ul class="navigation__list">
+            <li class="navigation__element"> <a class="navigation__link" href="#o-mnie"> Przedstawienie</a></li>
+            <li class="navigation__element"> <a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+            </li>
+            <li class="navigation__element"> <a class="navigation__link" href="#tabela">Tabela</a></li>
+            <li class="navigation__element"> <a class="navigation__link" href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="o-mnie" class="article">
+            <h2 class="aricle__title">O mnie</h2>
+            <div class="article__box">
+                <p>Ukończyłam studia na kierunku <strong>Ochrona środowiska</strong>, jednak po studiach wyjechałam za
+                    granicę i
+                    zajmowałam sie sprzedażą roślin ozdobnych, doradztwem. Na początku w centum ogrodniczym w Irlandii,
+                    potem w
+                    większej firmie pod Londynem, zajmującej sie importem roślin z Europy do Wielkiej Brytanii i hurtową
+                    sprzedażą
+                    na terenie
+                    kraju.<br>Niedawno postanowiłam <i>wywrócić wszystko do góry nogami</i>- wyprowadzic się z miasta,
+                    zmienić
+                    styl
+                    życia, pracę i przeprowadziłam się do
+                    Polski.</p>
+                <p>
+                    <img class="article__element" width="200" src="C:/dev/homepage/images/IMG_202.jpg"
+                        alt="zdjęcie Maja">
+                </p>
+            </div>
+
+        </article>
+        <aside id="zainteresowania">
+            <h2 class="aside__title">Zaiteresowania</h2>
+            <div class="aside__box">
+                <p>Po za roślinami i ogrodnictwem, interesuję się nowymi technologiami i ich wykorzystaniem w codziennym
+                    życiu
+                    tak jak <em><a rel="noreferrer noopener" target="_blank"
+                            href="https://www.gov.pl/web/ai/czym-jest-sztuczna-inteligencja2">sztuczna
+                            inteligencja</a></em>. Także zmianami w przyrodzie, klimacie na ziemi. W wolnym
+                    czasie
+                    tworzę <b>obrazki</b>, najczęściej z motywami roślinnyminymi.
+                </p>
+                <p>
+                    <img class="aside__element" width="600" src="C:/dev/homepage/images/flw3.jpg"
+                        alt="przykładowe ilustracje">
+                </p>
+            </div>
+        </aside>
+        <section id="tabela">
+            <h3 class="table__title">Tabela</h3>
+            <div class="table__box">
+                <p>
+                    Tabela zawiera listę roślin przykładowej rabaty, kolory kwiatów i okres kwitnienia.
+                </p>
+                <table class="table">
+                    <caption>Rabata kwiatowa</caption>
+                    <tr>
+                        <th class="table__cell" scope="row">Nazwa</th>
+                        <th class="table__cell" scope="row">Jeżówka</th>
+                        <th class="table__cell" scope="row">Rudbekia</th>
+                        <th class="table__cell" scope="row">Miskant chiński</th>
+                        <th class="table__cell" scope="row">Rozchodnik</th>
+                        <th class="table__cell" scope="row">Szałwia omszona</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell" scope="row">Kolor kwiatów</th>
+                        <td class="table__cell">różowy</td>
+                        <td class="table__cell">żółty</td>
+                        <td class="table__cell">purpurowy</td>
+                        <td class="table__cell">biały</td>
+                        <td class="table__cell">fioletowy</td>
+                    </tr>
+                    <tr>
+                        <th class="table__cell" scope="row">Pora kwitnienia</th>
+                        <td class="table__cell">VI - IX</td>
+                        <td class="table__cell">VII - X</td>
+                        <td class="table__cell">VIII - XI</td>
+                        <td class="table__cell">VII - X</td>
+                        <td class="table__cell">V - VIII</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="kontakt">
+            <h3 class="footer__title">Kontakt</h3>
+            <p class="footer__header">
+                e-mail
+            </p>
+            <p>
+                <button class="button">Pokaż</button>
+            </p>
+        </section>
+        <footer>
+            Wszelkie prawa zastrzeżone.
+        </footer>
+    </main>
+</body>
+
+</html>

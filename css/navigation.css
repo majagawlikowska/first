@@ -1,0 +1,20 @@
+.navigation__element {
+    list-style: none;
+    padding: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation__link:hover {
+    color: #4d82b4;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__list {
+    color: #000000;
+
+}
