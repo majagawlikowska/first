@@ -1,7 +1,7 @@
-# Maja Gawlikowska
+# First page
 
-## Opis
-Strona zawiera krótką informację o mnie.
+## description
+Hi, I'm Maja Gawlikowska, this page contains a brief information of myself.
 
 ## Demo
 
