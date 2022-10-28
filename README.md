@@ -1,6 +1,6 @@
 # Maja Gawlikowska
 
-## Opis
+## opis
 Strona zawiera krótką informację o mnie.
 
 ## Demo
