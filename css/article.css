@@ -33,7 +33,9 @@ body {
     border-style: solid;
     border-color: #e7e9ea;
     padding: 20px;
-    box-shadow: 0px 0px 35px -27px #30557A
+    box-shadow: 0px 0px 35px -27px #30557A;
+    text-align: justify;
+    
 }
 
 .article__element {
@@ -61,7 +63,8 @@ body {
     border-style: solid;
     border-color: #e7e9ea;
     padding: 20px;
-    box-shadow: 0px 0px 35px -27px #30557A
+    box-shadow: 0px 0px 35px -27px #30557A;
+    text-align: justify;
 }
 
 .aside__element {
