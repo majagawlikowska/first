@@ -1,7 +1,7 @@
 console.log("Hi there, (❁´◡`❁)");
 
-let button = document.querySelector(".button");
-let footer__header = document.querySelector(".footer__header");
+const button = document.querySelector(".button");
+const footer__header = document.querySelector(".footer__header");
 
 button.addEventListener("click", () => {
    if (footer__header.innerText === "e-mail") {
