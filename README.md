@@ -1,5 +1,5 @@
 # Maja Gawlikowska
-
+![homepage](images/Animation1.gif)
 ## opis
 
 
