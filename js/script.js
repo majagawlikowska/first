@@ -1,4 +1,26 @@
-console.log("Hi there, (❁´◡`❁)");
+{
+const welcome = () => {
+  console.log("Hi there, (❁´◡`❁)");
+}
+welcome();
+
+
+const onChangeBackgoundClick = () => {
+article.classList.toggle("article" , "blue");
+let blue = document.querySelector(".js-blue")
+let article = document.querySelector(".article");
+
+};
+
+const init = () => {
+const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton"); 
+changeBackgroundButton.addEventListener("click", onChangeBackgoundClick);
+}
+init();
+
+}
+
+
 
 
 let button = document.querySelector(".button");
@@ -18,20 +40,3 @@ button.addEventListener("click", () => {
     button.innerText = "Pokaż";
   }
 });
-
-
-
-
-let changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
-
-
-changeBackgroundButton.addEventListener("click", () => {
-
-  let article = document.querySelector(".article");
-  let blue = document.querySelector(".js-blue")
-  
-  article.classList.toggle(blue);
-
-
-}
-);
