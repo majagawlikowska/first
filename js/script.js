@@ -5,19 +5,6 @@ const welcome = () => {
 welcome();
 
 
-const onChangeBackgoundClick = () => {
-article.classList.toggle("article" , "blue");
-let blue = document.querySelector(".js-blue")
-let article = document.querySelector(".article");
-
-};
-
-const init = () => {
-const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton"); 
-changeBackgroundButton.addEventListener("click", onChangeBackgoundClick);
-}
-init();
-
 }
 
 
