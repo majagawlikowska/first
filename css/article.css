@@ -27,6 +27,12 @@
     display: block;
     margin: auto;
     max-width: 900px;
+    border-radius: 50%;
+}
+
+.article__element:hover {
+    transform: scale(104%);
+    transition: 1s; 
 }
 
 .article__title {
