@@ -1,5 +1,7 @@
 .navigation__element {
     list-style: none;
+    font-weight: 600;
+
 }
 
 .navigation__link {
