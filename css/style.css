@@ -21,8 +21,26 @@ html {
 }
 .footer__header {
     background-color: rgb(213, 231, 248 0.5);
+    display: grid;
+
 }
 
 .footer__title {
     color: #555557;
+}
+
+.button {
+
+   border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: linear-gradient(#93b5ef, #f896dc);
+    border: 2px solid;
+    box-shadow: 0px 0px 33px -18px #30557A;
+}
+
+.button:hover {
+    
+    transform: scale(110%);
+    transition: 1s;  
 }
