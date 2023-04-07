@@ -27,7 +27,7 @@
     display: block;
     margin: auto;
     max-width: 900px;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
 .article__element:hover {
